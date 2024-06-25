@@ -1,0 +1,9 @@
+Compile:
+	test_ulfius_1$ gcc test_ulfius.c -ljansson -lulfius -llogging
+
+Run:
+	test_ulfius_1$ ./a.out new_users
+
+Run the Flask Server:
+	test_ulfius_1$ python3 flask_server_test.py
+
